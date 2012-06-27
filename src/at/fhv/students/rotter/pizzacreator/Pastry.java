@@ -1,5 +1,9 @@
 package at.fhv.students.rotter.pizzacreator;
 
+/**
+ * Represents the pastry, the basic ingredient for a pizza,
+ * which means that it is also a leave of the decorator pattern.
+ */
 public class Pastry implements Ingredient {
     /**
      * Returns the accumulative cost of the ingredient
